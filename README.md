@@ -7,3 +7,5 @@ Logfiles are stored under /logfiles.
 
 ## Notebooks /notebooks:
 Jupyter notebooks are used to handle the processing of logfiles. 
+
+## Configurations /configs

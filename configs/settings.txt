@@ -1,0 +1,486 @@
+timeinterval	600	String
+autoscreen	false	Boolean
+voicesim	1	String
+pause_test	600	String
+cbUPLOAD AND DOWNLOAD TEST	true	Boolean
+3Gcolors	FF0000,FF8000,FFFF00,FF007F	String
+autodata	false	Boolean
+reverseroute	false	Boolean
+writecellinfoinlog	false	Boolean
+LOG PAUSE	LOG PAUSE	String
+hidearfcncolumn	false	Boolean
+cellcoloringtype	TECH	String
+disableautocalibration	false	Boolean
+DISTANCE	true	Boolean
+L71	646464	String
+routecolor	222222	String
+gnbidlen	23	String
+showtraffic	true	Boolean
+usebarometer	false	Boolean
+CIRCUIT SWITCH FALLBACK	CIRCUIT SWITCH FALLBACK	String
+B1	FF0000	String
+B2	FFB414	String
+B3	FFF014	String
+cbIRAT CELL RESELECTION	true	Boolean
+B4	118800	String
+B5	11FF00	String
+B6	14C8F0	String
+numneicellsonchart	6	String
+B7	1100FF	String
+firststart	false	Boolean
+B8	000000	String
+showfreqbandinnei	true	Boolean
+cbSMS NOT DELIVERED	true	Boolean
+oneshotindoor	false	Boolean
+pingpacket	56	String
+L81	383838	String
+cbIN COVERAGE	true	Boolean
+autocalibration	true	Boolean
+rsrpfactor	1	String
+showindoor	true	Boolean
+cbLOG START	true	Boolean
+distanceinterval	10	String
+C1	1100FF	String
+C2	1178F0	String
+C3	14FFF0	String
+C4	11FF00	String
+showindicator	true	Boolean
+C5	FFF014	String
+C6	FF7814	String
+C7	FF0000	String
+C8	000000	String
+visualize2Gcells	true	Boolean
+pingseconds	10	String
+drivetabheaderstextsize	20	String
+ultesturl	http://34.88.196.89/upload/	String
+streetlevel	0	String
+CA	false	Boolean
+filterlac		String
+bluetoothlocationonly	false	Boolean
+usedocumentsfolder	true	Boolean
+LOCATIONMODE	false	Boolean
+automixed	false	Boolean
+datasequencedetailedlog	true	Boolean
+cbSMS ERROR	true	Boolean
+speedondrivetab	false	Boolean
+BANDWIDTH	false	Boolean
+showpcicollisions	true	Boolean
+arfcnondrivetab	true	Boolean
+autouploadlogfile	false	Boolean
+doping	true	Boolean
+useAPI1serv	false	Boolean
+language	en	String
+prefer26instead5	false	Boolean
+UL_SPEED	true	Boolean
+FILEMARK	true	Boolean
+SPEED	true	Boolean
+showservline	true	Boolean
+usecustomsettings	false	Boolean
+pingurl	34.88.196.89	String
+prefer50instead94	false	Boolean
+prefer50instead92	false	Boolean
+multithread	true	Boolean
+autovoice	false	Boolean
+databaselimitdistancekilometers	50	String
+pinginterval	1000	String
+chart1on	true	Boolean
+IRAT CELL RESELECTION	IRAT CELL RESELECTION	String
+hideservcolumn	false	Boolean
+autorefreshdatabasecells	true	Boolean
+servingcellinfoonmaptabfontsize	11	String
+splitlog	false	Boolean
+DOWNLOAD TEST	DOWNLOAD TEST	String
+servneichartheight	180	String
+SMS SENT	SMS SENT	String
+usenewfunctionsfornetworktype	false	Boolean
+showrowdistancebearingnmaptab	true	Boolean
+pointsize	10	String
+showrowlevelqualsnr	true	Boolean
+AutoCenter	true	Boolean
+dovoicetest	false	Boolean
+autoboot	false	Boolean
+showdrivebuttons	true	Boolean
+cbHANDOVER VOICE	true	Boolean
+HIGH AVERAGE SPEED	HIGH AVERAGE SPEED	String
+autovisualizesites	true	Boolean
+previousstats1		String
+cellidondrivetab	true	Boolean
+mapcellthickness	3	String
+followroute	true	Boolean
+addnewcells	false	Boolean
+prefer46instead47	false	Boolean
+qualcoloroffset4G	0	String
+4Gcolors	11FF00,009900,80FF00,B2FF66	String
+splitperiod	60	String
+2Gcolors	1100FF,0080FF,00FFFF,7F00FF	String
+filternetworktypelevel		String
+pitch	1	String
+hexondrivetab	false	Boolean
+IP	false	Boolean
+mixedcycles	5	String
+hideeventcolumn	false	Boolean
+chart3on	true	Boolean
+maxvalue2G	-40	String
+thresholdaccuracy	20	String
+lazysearch4G5G	false	Boolean
+forceupdate	false	Boolean
+bg_startup_tracing	false	Boolean
+qualcoloroffset5G	0	String
+mapservingcellfontsize	22	String
+simplelog	false	Boolean
+logfoldermessage1	true	Boolean
+shownames	true	Boolean
+chartbuffer	205	String
+mapcellsize	100	String
+filtermccmnc	MCC1-MNC1, MCC2-MNC2	String
+mapservingcellthickness	5	String
+indoormode	false	Boolean
+restartwhenappclosed	false	Boolean
+chartsignalstrengthmodifyvalues	false	Boolean
+findneighborslines	true	Boolean
+UPLOAD TEST	UPLOAD TEST	String
+cbLOG END	true	Boolean
+autoclearmapnumber	1000	String
+includeimsiimeimsisdninlog	false	Boolean
+chartminvalue3G	-150	String
+maxvalue3G	-40	String
+announcehighaveragespeed	false	Boolean
+cbUPLOAD TEST	true	Boolean
+qualcoloroffset2G	0	String
+SNR	true	Boolean
+onesimreportingpreferedsim	1	String
+drivetabtextsize2	25	String
+dodownload	true	Boolean
+L1	FF0000	String
+L2	FF7814	String
+L3	FFFF00	String
+L4	11FF00	String
+L5	1178F0	String
+QUAL	true	Boolean
+L6	140A78	String
+datatestdltime	10	String
+kmlpointsize	3	String
+chart2on	true	Boolean
+HANDOVER VOICE	HANDOVER VOICE	String
+chartminvalue2G	-150	String
+maxvalue4G	-40	String
+LAC	false	Boolean
+asufactor	1	String
+dataonlyduringtest	false	Boolean
+maxvalue5G	-40	String
+qualcoloroffset3G	0	String
+NEI	false	Boolean
+discardmccmncunknownvalue	false	Boolean
+CALL DROP	CALL DROP	String
+freqondrivetab	true	Boolean
+pause_data	5	String
+LAYER	false	Boolean
+nodeondrivetab	true	Boolean
+drivetabtextsize	35	String
+enabledatatestdistancefeature	false	Boolean
+RNC	false	Boolean
+enablemixedsequencedistancefeature	false	Boolean
+bluetoothlocationsource	false	Boolean
+hexvalues	false	Boolean
+visualizesites	false	Boolean
+starttab	Cell	String
+rssiondrivetab	false	Boolean
+chartminvalue5G	-150	String
+announcementsinlogmodeonly	false	Boolean
+gnetwificontrol	false	Boolean
+CQI	true	Boolean
+infochartheight	90	String
+CELL INFO CHANGE	CELL INFO CHANGE	String
+techondrivetab	true	Boolean
+followroutepoints	20	String
+chart5on	true	Boolean
+bluetoothclient	false	Boolean
+barometerheightcorrection	0	String
+historylogtextsize	9	String
+chartminvalue4G	-150	String
+pause_calls	10	String
+routefactor	1	String
+verboselog	false	Boolean
+useleveltechcoloring	false	Boolean
+cbCELL INFO CHANGE	true	Boolean
+LOG START	LOG START	String
+cbCALL START	true	Boolean
+dodatatest	true	Boolean
+showservingcellinfoonmaptab	false	Boolean
+calculateavgspeed	false	Boolean
+databaselimitdistance	false	Boolean
+cbIRAT HANDOVER VOICE	true	Boolean
+showdirection	true	Boolean
+mapneicellthickness	2	String
+cbIRAT HANDOVER DATA	true	Boolean
+WIFISCAN	false	Boolean
+SMS DELIVERED	SMS DELIVERED	String
+cbUNKNOWN CELL	true	Boolean
+cqiondrivetab	false	Boolean
+datatestultime	10	String
+CT2	25	String
+simuuldl	false	Boolean
+CT1	30	String
+CT4	15	String
+CT3	20	String
+CT6	5	String
+CT5	10	String
+startcallstech	All	String
+signalstrengthmodifyvalues	false	Boolean
+CT7	0	String
+CELLFIND	false	Boolean
+showdotsforcells	false	Boolean
+chart4on	true	Boolean
+buffersize	1000	String
+ST2	15	String
+ST1	20	String
+ST4	5	String
+ST3	10	String
+ST6	-5	String
+ST5	0	String
+networktypenulltype	NONE	String
+ST7	-10	String
+useclassnamemanual	false	Boolean
+SMS NOT DELIVERED	SMS NOT DELIVERED	String
+bluetoothid	1	String
+hidequalcolumn	false	Boolean
+addtimestamptocustomlogfilename	false	Boolean
+rsrpadjauto	false	Boolean
+checkfornewercellfile	true	Boolean
+Q1	1100FF	String
+logwithoutgps	false	Boolean
+Q2	1178F0	String
+Q3	14FFF0	String
+Q4	11FF00	String
+Q5	FFF014	String
+Q6	FF7814	String
+MapOnInBackgground	false	Boolean
+Q7	FF0000	String
+multisim	false	Boolean
+Q8	000000	String
+CALL BLOCK	CALL BLOCK	String
+filterarfcn		String
+vonr	false	Boolean
+cbLOG PAUSE	true	Boolean
+visualize3Gcells	true	Boolean
+cbLOG RESUME	true	Boolean
+showrowlacnodecellidonmaptab	true	Boolean
+qualondrivetab	true	Boolean
+enablefiltermccmnc	false	Boolean
+5Gcolors	FF00FF,990099,800099,600099	String
+useheight	false	Boolean
+userssicalculatedforce	false	Boolean
+cbSMS SENT	true	Boolean
+autorotate	true	Boolean
+datatestdistance	1000	String
+BT1	50000	String
+snrfactor	1	String
+BT3	5000	String
+BT2	10000	String
+BT5	384	String
+BT4	1000	String
+logfactor	1	String
+BT7	0	String
+BT6	128	String
+chart7on	true	Boolean
+UPLOAD AND DOWNLOAD TEST	UPLOAD AND DOWNLOAD TEST	String
+UNKNOWN CELL	UNKNOWN CELL	String
+barometerheightdifference	1	String
+KNOWN CELL	KNOWN CELL	String
+lazysearch2G3G	false	Boolean
+BAND	true	Boolean
+IRAT HANDOVER VOICE	IRAT HANDOVER VOICE	String
+headingondrivetab	false	Boolean
+sitesrange	5000	String
+charton	true	Boolean
+LTERSSI	false	Boolean
+S1	1100FF	String
+S2	1178F0	String
+servingdistanceondrivetab	false	Boolean
+S3	14FFF0	String
+S4	11FF00	String
+S5	FFF014	String
+S6	FF7814	String
+S7	FF0000	String
+logfileuploadurl	https://	String
+S8	000000	String
+dualsim5gfix	false	Boolean
+prefer25instead2	false	Boolean
+snrfactorold	1	String
+bluetoothserver	false	Boolean
+autolog	false	Boolean
+kmlpointsizedependsontech	true	Boolean
+prefer78instead48	false	Boolean
+SMS ERROR	SMS ERROR	String
+useAPI17snr	true	Boolean
+cbHANDOVER DATA	true	Boolean
+routeleadingpointscolor	00FF00	String
+chart6on	true	Boolean
+prefer77instead78	false	Boolean
+taondrivetab	true	Boolean
+DATATEST	true	Boolean
+TA	false	Boolean
+QT2	2	String
+QT1	5	String
+QT4	-7	String
+QT3	-1	String
+QT6	-14	String
+QT5	-10	String
+QT7	-20	String
+findneighbors	true	Boolean
+disablegeminisupport	false	Boolean
+hidetypecolumn	false	Boolean
+autoclearmap	true	Boolean
+enable5goldfunctions	true	Boolean
+gpsrefreshtime	500	String
+usecustomlogname	true	Boolean
+alternativetimestamp	false	Boolean
+cbKNOWN CELL	false	Boolean
+logfilenameprefix1		String
+prefer77instead48	false	Boolean
+logfilenameprefix2		String
+showsites	false	Boolean
+levelcoloroffset4G	0	String
+cbSMS DELIVERED	true	Boolean
+LOG END	LOG END	String
+PSC	true	Boolean
+cbCALL BLOCK	true	Boolean
+autoindoor	false	Boolean
+usemccmncforoperatorname	false	Boolean
+chart9on	true	Boolean
+bsicinoctal	true	Boolean
+asuadjauto	true	Boolean
+ANTENNABEARING	true	Boolean
+PHONESTATE	true	Boolean
+minvalue5G	-140	String
+levelcoloroffset5G	0	String
+chartmaxvalue5G	-30	String
+callblocktime	2000	String
+showsetpoint	false	Boolean
+num_calls	10	String
+speed	0.8	String
+kmlheightmode	0	String
+minvalue4G	-140	String
+levelcoloroffset2G	0	String
+ARFCN	true	Boolean
+chartmaxvalue4G	-30	String
+shortkml	false	Boolean
+classnamemanual	com.mediatek.telephony.TelephonyManagerEx	String
+dltesturl	http://34.88.196.89/download/hugefile.dat	String
+chartmaxvalue2G	-30	String
+chart8on	true	Boolean
+datasim	1	String
+cbNO COVERAGE	true	Boolean
+cellsfontsize	15	String
+bearingondrivetab	false	Boolean
+continuelogatapprestart	false	Boolean
+bitratesondrivetab	false	Boolean
+minvalue3G	-140	String
+discardnetworktypenull	true	Boolean
+levelcoloroffset3G	0	String
+chartmaxvalue3G	-30	String
+useglobalindicator	true	Boolean
+restartlogatspecifictime	false	Boolean
+colorpciarfcn	false	Boolean
+prefer26instead18	false	Boolean
+usephoneidinlogname	false	Boolean
+minvalue2G	-140	String
+operator2		String
+prefer65instead1	false	Boolean
+operator1		String
+enablecellvisualizationfilter	false	Boolean
+CALL START	CALL START	String
+HANDOVER DATA	HANDOVER DATA	String
+CELLFILTER	false	Boolean
+lacondrivetab	true	Boolean
+keepappinforeground	true	Boolean
+bluetoothlocation	false	Boolean
+LEVEL	true	Boolean
+prefer20instead91	false	Boolean
+showevents	false	Boolean
+prefer20instead92	false	Boolean
+usedatabase	false	Boolean
+chart10on	true	Boolean
+servingneighbortabletextsize	10	String
+databaseorder	true	Boolean
+showbuildings	true	Boolean
+prefer90instead38	false	Boolean
+pscondrivetab	true	Boolean
+alignvalues	false	Boolean
+engineeringmenucode	*#*#4636#*#*	String
+prefer41instead38	false	Boolean
+DL_SPEED	true	Boolean
+switchsim	false	Boolean
+call_duration	5	String
+PING TEST	PING TEST	String
+IN COVERAGE	IN COVERAGE	String
+bandondrivetab	true	Boolean
+usequaltechcoloring	false	Boolean
+prefer85instead12	false	Boolean
+TechnologyMode	true	Boolean
+cbPING TEST	true	Boolean
+cbCALL DROP	true	Boolean
+IRAT HANDOVER DATA	IRAT HANDOVER DATA	String
+maptype	Normal	String
+hideaccolumn	false	Boolean
+called_number	0	String
+bandwidthondrivetab	true	Boolean
+doupload	true	Boolean
+EVENTS	true	Boolean
+pingtimes	10	String
+phoneid		String
+restartlogatspecifictimevalue	17:50	String
+showzoom	true	Boolean
+Technology	true	Boolean
+snrfactoroldfixdone	true	String
+CSIRSRP	false	Boolean
+CSIRSRQ	false	Boolean
+cbCIRCUIT SWITCH FALLBACK	true	Boolean
+cbDOWNLOAD TEST	true	Boolean
+prefer8instead93	false	Boolean
+prefer8instead94	false	Boolean
+visualize4Gcells	true	Boolean
+LT1	-60	String
+LT3	-80	String
+LT2	-70	String
+mixedsequencedistance	1000	String
+cbCELL RESELECTION	true	Boolean
+CALL END	CALL END	String
+LT5	-100	String
+LT4	-90	String
+LT7	-120	String
+LOG RESUME	LOG RESUME	String
+filtercell	NODE1-CELLID1, NODE2-CELLID2	String
+LT6	-110	String
+levelondrivetab	true	Boolean
+antennabearingondrivetab	false	Boolean
+avgspeednum	300	String
+cbCALL END	true	Boolean
+CELLID	true	Boolean
+maxvisualizedcells	1000	String
+immediateupdates	false	Boolean
+metricsystem	true	Boolean
+screenorientation	1	String
+forceupdate2	false	Boolean
+routesize	20	String
+numberofthreads	4	String
+writehistorylog	false	Boolean
+thresholdtime	2	String
+splitrowsnumber	10000	String
+CSISNR	false	Boolean
+visualize5Gcells	true	Boolean
+showleveldifferencepcicollisions	false	Boolean
+voiceannouncements	false	Boolean
+NRSTATE	false	Boolean
+exactlocation	false	Boolean
+splitlogtimeperiodically	false	Boolean
+prefer51instead93	false	Boolean
+HEIGHT	false	Boolean
+CELLHUNTER	false	Boolean
+avgspeedthreshold	1000	String
+NO COVERAGE	NO COVERAGE	String
+prefer51instead91	false	Boolean
+serving5Gfix	true	Boolean
+CELL RESELECTION	CELL RESELECTION	String
+datatestsummary	true	Boolean
+snrondrivetab	true	Boolean
