@@ -15,7 +15,8 @@ Jupyter notebooks are used to handle the processing of logfiles.
 
 ## Raspberry PI code /raspi
 Speedtest-cli used on the Raspberry PI 4 is https://github.com/sivel/speedtest-cli. It is a python script that uses the speedtest.net API to get the speed of the internet connection. This will be installed on the Raspberry PI and run continuously to collect data.
-
+sample.py is a script that runs the speedtest continuously and appends the results to a Google Sheet. 
+handle_sheet.py contains functions for interacting with the Google Sheet.
 
 
 
