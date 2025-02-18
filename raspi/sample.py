@@ -59,8 +59,8 @@ try:
         except Exception as e:
             print(f"Error in main loop: {str(e)}", file=sys.stderr, flush=True)
             
-        print("Waiting 60 seconds before next test...", file=sys.stdout, flush=True)
-        time.sleep(60)
+        print("Waiting 300 seconds before next test...", file=sys.stdout, flush=True)
+        time.sleep(300)
 
 except Exception as e:
     print(f"Fatal error: {str(e)}", file=sys.stderr, flush=True)
