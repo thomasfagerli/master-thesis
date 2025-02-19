@@ -7,14 +7,10 @@ import sys
 
 
 #This function runs a speedtest and returns the results
-def run_speedtest(server_id=64688): 
+def run_speedtest(): 
     s = speedtest.Speedtest(secure=True)
-    s.get_servers()
-    
-    # Try to use specified server, fall back to best if not found
-    servers = [server for server in s.servers if server['id'] == str(server_id)]
-    s.get_best_server(servers if servers else None)
-    
+    s.get_servers([64688])
+    s.get_best_server()
     s.download()
     s.upload()
     s.results.share()
