@@ -4,7 +4,8 @@ import time
 from handle_sheet import append_row, get_service, create_sheet, json_to_csv
 import socket
 import sys
-
+import serial
+import re
 
 #This function runs a speedtest and returns the results
 def run_speedtest(): 
@@ -31,7 +32,36 @@ def wait_for_internet():
             print("No internet connection. Waiting 5 seconds...", file=sys.stderr, flush=True)
             time.sleep(5)
 
+#Retrieves LTE and NR5G-NSA cell information from a modem using AT commands.
+def get_cell_info(port="/dev/ttyUSB2", baudrate=115200, timeout=1): 
+    try:
+        # Open serial connection
+        ser = serial.Serial(port, baudrate=baudrate, timeout=timeout)
 
+        # Send AT command
+        ser.write(b'AT+QENG="servingcell"\r')
+
+        # Wait for response
+        time.sleep(1)
+
+        # Read response
+        response = ser.read_all().decode(errors='ignore')
+
+        # Close the serial connection
+        ser.close()
+
+        # Extract LTE and NR5G-NSA information using regex
+        lte_match = re.search(r'\+QENG:\s*"LTE".*', response)
+        nr5g_match = re.search(r'\+QENG:\s*"NR5G-NSA".*', response)
+
+        # Format the output string
+        lte_info = lte_match.group(0) if lte_match else ""
+        nr5g_info = nr5g_match.group(0) if nr5g_match else ""
+
+        return f"{lte_info},{nr5g_info}"
+    
+    except Exception as e:
+        return f"Error: {str(e)}"
 
 # Main program
 try:
@@ -49,7 +79,7 @@ try:
     # run the speedtest every 60 seconds
     while True:
         try:
-            results = json_to_csv(run_speedtest())
+            results = json_to_csv(run_speedtest())+","+get_cell_info()
             if results:
                 print(results, file=sys.stdout, flush=True)
                 append_row(results, get_service(spreadsheet_id), spreadsheet_id, sheet_name)
