@@ -76,18 +76,36 @@ try:
     header = "timestamp,download,upload,ping,server_lat,server_lon,server_name,server_country,server_sponsor,server_id,server_latency,share_url,client_lat,client_lon"
     append_row(header, get_service(spreadsheet_id), spreadsheet_id, sheet_name)
 
+    #write to local file with sheet_name in /measurements folder
+    with open(f"measurements/{sheet_name}.csv", "w") as f:
+        f.write(header) 
+
+
     # run the speedtest every 60 seconds
     while True:
         try:
-            results = json_to_csv(run_speedtest())+","+get_cell_info()
+            wait_for_internet()
+
+            results = json_to_csv(run_speedtest())
+            #Try to add get_cell_info() to results
+            try:
+                cell_info = get_cell_info()
+                if cell_info:  
+                    results += "," + cell_info
+            except Exception as e:
+                print(f"Error in get_cell_info: {str(e)}", file=sys.stderr, flush=True)
+                
             if results:
                 print(results, file=sys.stdout, flush=True)
+                with open(f"measurements/{sheet_name}.csv", "a") as f:
+                    f.write(results)
                 append_row(results, get_service(spreadsheet_id), spreadsheet_id, sheet_name)
             else:
                 print("Skipping this iteration due to failed speedtest", file=sys.stderr, flush=True)
                 
         except Exception as e:
             print(f"Error in main loop: {str(e)}", file=sys.stderr, flush=True)
+            
             
         print("Waiting 300 seconds before next test...", file=sys.stdout, flush=True)
         time.sleep(300)
