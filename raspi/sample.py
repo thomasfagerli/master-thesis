@@ -55,8 +55,8 @@ def get_cell_info(port="/dev/ttyUSB2", baudrate=115200, timeout=1):
         nr5g_match = re.search(r'\+QENG:\s*"NR5G-NSA".*', response)
 
         # Format the output string
-        lte_info = lte_match.group(0) if lte_match else ""
-        nr5g_info = nr5g_match.group(0) if nr5g_match else ""
+        lte_info = lte_match.group(0) if lte_match else ",,,,,,,,,,,,,,,,,"
+        nr5g_info = nr5g_match.group(0) if nr5g_match else ",,,,,,,,,,"
 
         return f"{lte_info},{nr5g_info}"
     
@@ -73,7 +73,7 @@ try:
     sheet_name = datetime.now().strftime("%Y.%m.%d %H:%M") 
     create_sheet(sheet_name, get_service(spreadsheet_id), spreadsheet_id)
     print(f"Creating new sheet: {sheet_name}", file=sys.stdout, flush=True)
-    header = "timestamp,download,upload,ping,server_lat,server_lon,server_name,server_country,server_sponsor,server_id,server_latency,share_url,client_lat,client_lon"
+    header = "timestamp,download,upload,ping,server_lat,server_lon,server_name,server_country,server_sponsor,server_id,server_latency,share_url,client_lat,client_lon,servingcell,is_tdd,LTE_MCC,LTE_MNC,LTE_cellID,LTE_PCID,LTE_ARFCN,freq_band_ind,UL_bandwidth,DL_bandwidth,LTE_TAC,LTE_RSRP,LTE_RSRQ,LTE_RSSI,LTE_SINR,LTE_CQI,LTE_tx_power,srxlev,5G cell,5G_MCC,5G_MNC,5G_PCID,5G_RSRP,5G_SINR,5G_RSRQ,5G_ARFCN,5G_band,,"
     append_row(header, get_service(spreadsheet_id), spreadsheet_id, sheet_name)
 
     #write to local file with sheet_name in /measurements folder
