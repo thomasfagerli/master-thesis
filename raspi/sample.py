@@ -53,12 +53,15 @@ def get_cell_info(port="/dev/ttyUSB2", baudrate=115200, timeout=1):
         # Extract LTE and NR5G-NSA information using regex
         lte_match = re.search(r'\+QENG:\s*"LTE".*', response)
         nr5g_match = re.search(r'\+QENG:\s*"NR5G-NSA".*', response)
+        nr5g_sa_match = re.search(r'\+QENG:\s*"NR5G-SA".*', response)
+
 
         # Format the output string
         lte_info = lte_match.group(0) if lte_match else ",,,,,,,,,,,,,,,,,"
         nr5g_info = nr5g_match.group(0) if nr5g_match else ",,,,,,,,,,"
+        nr5g_sa_info = nr5g_sa_match.group(0) if nr5g_sa_match else ",,,,,,,,,,"
 
-        return f"{lte_info},{nr5g_info}"
+        return f"{lte_info},{nr5g_info},{nr5g_sa_info}"
     
     except Exception as e:
         return f"Error: {str(e)}"
