@@ -46,7 +46,7 @@ def get_cell_info(port="/dev/ttyUSB2", baudrate=115200, timeout=1):
 
         # Read response
         response = ser.read_all().decode(errors='ignore')
-
+        print(response)
         # Close the serial connection
         ser.close()
 
