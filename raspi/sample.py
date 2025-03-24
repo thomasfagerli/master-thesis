@@ -93,7 +93,6 @@ try:
             #Try to add get_cell_info() to results
             try:
                 cell_info = get_cell_info()
-                print(cell_info)
                 if cell_info:  
                     results += "," + cell_info
             except Exception as e:
