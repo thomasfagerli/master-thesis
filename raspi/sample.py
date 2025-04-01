@@ -10,7 +10,7 @@ import re
 #This function runs a speedtest and returns the results
 def run_speedtest(): 
     s = speedtest.Speedtest(secure=True)
-    s.get_servers([31861])
+    s.get_servers()
     s.get_best_server()
     s.download()
     s.upload()
